@@ -13,6 +13,25 @@ ourStr would have a value of the string Hello, our name is freeCodeCamp, how are
 
 */
 
-const myName = "Chiemella";
+const myName = "Chiemella,";
 const myStr = "My name is " + myName + " I am well!";
 console.log(myStr)
+
+
+/* Appending Variables to Strings
+Just as we can build a string over multiple lines out of string literals, we can also append variables to a string using the plus equals (+=) operator.
+
+Example:
+
+const anAdjective = "awesome!";
+let ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+ourStr would have the value freeCodeCamp is awesome!.
+
+ */
+
+const someAdjective = "nice";
+let myLtr = "Learning coding is ";
+
+myLtr += someAdjective
+console.log(myLtr)
