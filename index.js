@@ -14,4 +14,5 @@ ourStr would have a value of the string Hello, our name is freeCodeCamp, how are
 */
 
 const myName = "Chiemella";
-const myStr = "My name is " + myName + "I am well!";
+const myStr = "My name is " + myName + " I am well!";
+console.log(myStr)
