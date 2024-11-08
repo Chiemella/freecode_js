@@ -137,8 +137,8 @@ You start an array declaration with an opening square bracket, end it with a clo
 const sandwich = ["peanut butter", "jelly", "bread"];
  */
 
-const myArray = ["hope", 12,];
-console.log(myArray);
+/* const myArray = ["hope", 12,];
+console.log(myArray); */
 
 
 
