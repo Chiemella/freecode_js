@@ -191,3 +191,17 @@ Modify the data stored at index 0 of myArray to a value of 45.
 const ouArray = [23, 37, 80];
 ouArray[0] = 100;
 console.log(ouArray);
+
+
+// TASK
+// Given the array numberGroups, use bracket notation to access the value 12 and assign it to the variable selectedNumber.
+
+const numberGroups =  [
+    [5, 6, 7],                      //arr[0]
+    [8, 9, 10],                     //arr[1]
+    [11, 12, 13],                   //arr[2]
+    [[14, 15, 16], 17, 18]          //arr[3]
+];
+
+const selectNumber = numberGroups[2][1];
+console.log(selectNumber);
