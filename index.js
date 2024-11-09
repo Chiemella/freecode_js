@@ -285,5 +285,19 @@ Then, call greetUser with a sample name, like "Alice", and check the output in t
 function greetUser(name){
     console.log("Hello " + name + "!");
 }
-
 greetUser("Williams");
+
+
+/* 
+Task:
+
+Create a function called calculateArea that takes two arguments: length and width. The function should calculate the area of a rectangle using these dimensions and return the result.
+
+*/
+
+function calculateArea(length, width){
+    console.log(length + width);
+}
+
+calculateArea(2, 10)
+calculateArea(10, 10)
