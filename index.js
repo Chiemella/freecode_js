@@ -273,3 +273,17 @@ const myList = [
   ["Egg", 100],
   ["Tea", 500]
 ];
+
+
+/* 
+Create a function called greetUser that takes a parameter name. The function should output the string "Hello, [name]!" to the console, where [name] is replaced by the actual name passed to the function.
+
+Then, call greetUser with a sample name, like "Alice", and check the output in the console.
+
+*/
+
+function greetUser(name){
+    console.log("Hello " + name + "!");
+}
+
+greetUser("Williams");
