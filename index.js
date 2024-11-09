@@ -225,3 +225,17 @@ const lastColor = colorsArr.pop();
 
 console.log(lastColor);
 console.log(colorsArr);
+
+
+
+
+
+/* Task
+Given the array fruitsArr, use the .shift() method to remove the first fruit and store it in a variable called firstFruit. Then, print both firstFruit and fruitsArr to see the results.
+*/
+
+const fruitsArrv = ["apple", "banana", "cherry", "date"];
+const firstFruit = fruitsArrv.shift()
+console.log(fruitsArrv);
+console.log(firstFruit);
+
