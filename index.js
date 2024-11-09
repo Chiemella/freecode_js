@@ -205,3 +205,23 @@ const numberGroups =  [
 
 const selectNumber = numberGroups[2][1];
 console.log(selectNumber);
+
+
+/* 
+const colorsArr = ["red", "blue", "green", "yellow"];
+
+// Your task: Use .pop() to remove the last color from colorsArr 
+// and store it in the variable lastColor.
+
+const lastColor = ""; // Change this line
+
+console.log(lastColor); // This should display: "yellow"
+console.log(colorsArr); // This should display: ["red", "blue", "green"]
+
+*/
+
+const colorsArr = ["red", "blue", "green", "yellow"];
+const lastColor = colorsArr.pop();
+
+console.log(lastColor);
+console.log(colorsArr);
