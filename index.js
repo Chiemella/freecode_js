@@ -239,3 +239,21 @@ const firstFruit = fruitsArrv.shift()
 console.log(fruitsArrv);
 console.log(firstFruit);
 
+
+
+
+/* 
+Given the array animalsArr, use the .shift() method to remove the first animal and then use the .unshift() method to add a new animal to the beginning of the array. Store the removed animal in a variable called removedAnimal, and then print both removedAnimal and animalsArr to see the results.
+
+
+
+*/
+
+
+const animalsArr = ["lion", "tiger", "bear", "zebra"];
+
+const removedAnimal = animalsArr.shift();
+console.log(removedAnimal);
+
+animalsArr.unshift("Elephant");
+console.log(animalsArr);
