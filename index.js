@@ -84,12 +84,12 @@ Note that this does not mean that myStr could not be re-assigned. The only way t
 
 let myStr = "Bob";
 myStr = "Job"; */
- let Mstr = "Jello World";
- Mstr = "Hello World";
- console.log(Mstr);
+let Mstr = "Jello World";
+Mstr = "Hello World";
+console.log(Mstr);
 
- /*  */
- const firstName = "Ada";
+/*  */
+const firstName = "Ada";
 const secondLetterOfFirstName = firstName[1];
 console.log(secondLetterOfFirstName);
 
@@ -196,7 +196,7 @@ console.log(ouArray);
 // TASK
 // Given the array numberGroups, use bracket notation to access the value 12 and assign it to the variable selectedNumber.
 
-const numberGroups =  [
+const numberGroups = [
     [5, 6, 7],                      //arr[0]
     [8, 9, 10],                     //arr[1]
     [11, 12, 13],                   //arr[2]
@@ -267,11 +267,11 @@ The first element in each sub-array should contain a string with the name of the
 
 */
 const myList = [
-  ["Garri", 50],
-  ["Beans", 20],
-  ["Rice", 30],
-  ["Egg", 100],
-  ["Tea", 500]
+    ["Garri", 50],
+    ["Beans", 20],
+    ["Rice", 30],
+    ["Egg", 100],
+    ["Tea", 500]
 ];
 
 
@@ -282,7 +282,7 @@ Then, call greetUser with a sample name, like "Alice", and check the output in t
 
 */
 
-function greetUser(name){
+function greetUser(name) {
     console.log("Hello " + name + "!");
 }
 greetUser("Williams");
@@ -295,9 +295,39 @@ Create a function called calculateArea that takes two arguments: length and widt
 
 */
 
-function calculateArea(length, width){
+function calculateArea(length, width) {
     console.log(length + width);
 }
 
 calculateArea(2, 10)
 calculateArea(10, 10)
+
+
+
+/* 
+
+Task: Create a Multiplication Function
+
+Define a function called multiplyByTen that takes a single argument num.
+Inside the function, return the result of num multiplied by 10.
+Call the function with the following numbers: 3, 7, and 0.5.
+Store each result in a separate variable and then log each result to the console.
+Example
+If your function is working correctly, calling multiplyByTen(3); should return 30. Similarly, multiplyByTen(7); should return 70, and multiplyByTen(0.5); should return 5.
+
+ */
+
+
+function multiplyByTen(num) {
+    return num * 10
+}
+
+const answer1 = multiplyByTen(3);
+const answer2 = multiplyByTen(7);
+const answer3 = multiplyByTen(0.5);
+
+console.log(answer1);
+console.log(answer2);
+console.log(answer3);
+
+
