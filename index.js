@@ -428,3 +428,13 @@ function addTwenty() {
 addTen()
 addTwenty()
 console.log(total) // 0
+
+
+// Another Task: Write a Function and Assign its Result to a Variable
+
+function calculateResult(num) {
+  return (num * 4 + 6) / 2;  
+}
+
+let finalResult = calculateResult(8);
+console.log(finalResult)
