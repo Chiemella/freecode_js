@@ -417,11 +417,11 @@ console.log(nameOp)
 
 let total = 0;
 function addTen() {
-  sum = 10 + total;
+  total = 10 + total;
 }
 
 function addTwenty() {
-  sum = 20 + total;
+  total = 20 + total;
 
 }
 
