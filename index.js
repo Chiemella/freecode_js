@@ -358,3 +358,40 @@ function fun2() {
   console.log(output);
 }
 
+
+/* 
+
+Task: Practice with Global and Local Scope
+
+Define a global variable called city and assign it the value "Paris".
+
+Create a function called visitPlace.
+
+Inside this function, define a local variable called city with the value "Tokyo".
+
+The function should return the value of city.
+
+Call the function visitPlace and store the returned result in a variable called placeToVisit.
+
+Log placeToVisit and city to the console.
+
+
+Expected Output:
+
+Calling visitPlace should return "Tokyo" because the local city inside the function takes priority.
+Logging city outside the function should output "Paris" because that is the global city variable.
+
+*/
+
+
+const city = "Paris";
+
+function visitToPlace(Tokyo) {
+  const city = "Tokyo";
+  return city;
+
+
+}
+
+console.log(visitToPlace());
+console.log(city); 
