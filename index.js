@@ -395,3 +395,15 @@ function visitToPlace(Tokyo) {
 
 console.log(visitToPlace());
 console.log(city); 
+
+// Task - Write a function that accepts an array of numbers and returns the sum of all positive numbers in the array. If the array is empty or has no positive numbers, the function should return 0.
+
+let nameOp = "tobi"
+
+function greet(John) {
+  nameOp = "Parkins"
+  return nameOp;
+}
+
+console.log(greet());
+console.log(nameOp)
