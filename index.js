@@ -408,3 +408,23 @@ function greet(John) {
 console.log(greet());
 console.log(nameOp)
 
+
+
+
+
+
+// Another Task: Write two functions, addTen and addTwenty, that modify a global variable total. The addTen function should add 10 to total, and addTwenty should add 20. Neither function should return any value (they should return undefined).
+
+let total = 0;
+function addTen() {
+  sum = 10 + total;
+}
+
+function addTwenty() {
+  sum = 20 + total;
+
+}
+
+addTen()
+addTwenty()
+console.log(total) // 0
