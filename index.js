@@ -461,3 +461,17 @@ function nextInLine(arr, item) {
 
 let testArr = [1, 2, 3, 4, 5];
 
+
+// Boolean: TRUE OR FALSE & IF Statement
+function test(myCondition){
+  if (myCondition) {
+    return "It was true"
+  }
+
+  return "It was false"
+
+}
+
+
+console.log(test(true));
+console.log(test(false));
