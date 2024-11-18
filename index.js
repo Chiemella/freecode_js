@@ -465,10 +465,10 @@ let testArr = [1, 2, 3, 4, 5];
 // Boolean: TRUE OR FALSE & IF Statement
 function test(myCondition){
   if (myCondition) {
-    return "It was true"
+    return "Y"
   }
 
-  return "It was false"
+  return "N"
 
 }
 
@@ -507,3 +507,28 @@ function testVal(myValx){
 }
 
 console.log(testVal(5))
+
+
+
+/*
+
+Comparison with the Strict Equality Operator
+Strict equality (===) is the counterpart to the equality operator (==). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
+
+If the values being compared have different types, they are considered unequal, and the strict equality operator will return false.
+
+*/
+
+
+function testStrict(valp){
+  if (valp === 7) {
+    return "Yes"
+  }
+  return "No"
+
+}
+
+
+console.log(testStrict(7))
+console.log(testStrict(0))
+console.log(testStrict(12))
