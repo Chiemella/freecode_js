@@ -496,3 +496,14 @@ trueOrFalse(true)
 trueOrFalse(false)
 
 */
+
+
+function testVal(myValx){
+  if (myValx == 10) {
+    return "Equal"
+  }
+
+  return "Not Equal"
+}
+
+console.log(testVal(5))
