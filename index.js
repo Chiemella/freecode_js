@@ -197,10 +197,10 @@ console.log(ouArray);
 // Given the array numberGroups, use bracket notation to access the value 12 and assign it to the variable selectedNumber.
 
 const numberGroups = [
-    [5, 6, 7],                      //arr[0]
-    [8, 9, 10],                     //arr[1]
-    [11, 12, 13],                   //arr[2]
-    [[14, 15, 16], 17, 18]          //arr[3]
+  [5, 6, 7],                      //arr[0]
+  [8, 9, 10],                     //arr[1]
+  [11, 12, 13],                   //arr[2]
+  [[14, 15, 16], 17, 18]          //arr[3]
 ];
 
 const selectNumber = numberGroups[2][1];
@@ -267,11 +267,11 @@ The first element in each sub-array should contain a string with the name of the
 
 */
 const myList = [
-    ["Garri", 50],
-    ["Beans", 20],
-    ["Rice", 30],
-    ["Egg", 100],
-    ["Tea", 500]
+  ["Garri", 50],
+  ["Beans", 20],
+  ["Rice", 30],
+  ["Egg", 100],
+  ["Tea", 500]
 ];
 
 
@@ -283,7 +283,7 @@ Then, call greetUser with a sample name, like "Alice", and check the output in t
 */
 
 function greetUser(name) {
-    console.log("Hello " + name + "!");
+  console.log("Hello " + name + "!");
 }
 greetUser("Williams");
 
@@ -296,7 +296,7 @@ Create a function called calculateArea that takes two arguments: length and widt
 */
 
 function calculateArea(length, width) {
-    console.log(length + width);
+  console.log(length + width);
 }
 
 calculateArea(2, 10)
@@ -319,7 +319,7 @@ If your function is working correctly, calling multiplyByTen(3); should return 3
 
 
 function multiplyByTen(num) {
-    return num * 10
+  return num * 10
 }
 
 const answer1 = multiplyByTen(3);
@@ -342,7 +342,7 @@ let myGlobal = 10;
 
 function fun1() {
   // Assign 5 to oopsGlobal here
-oopsGlobal = 5;
+  oopsGlobal = 5;
 }
 
 // Only change code above this line
@@ -394,7 +394,7 @@ function visitToPlace(Tokyo) {
 }
 
 console.log(visitToPlace());
-console.log(city); 
+console.log(city);
 
 // Task - Write a function that accepts an array of numbers and returns the sum of all positive numbers in the array. If the array is empty or has no positive numbers, the function should return 0.
 
@@ -433,8 +433,31 @@ console.log(total) // 0
 // Another Task: Write a Function and Assign its Result to a Variable
 
 function calculateResult(num) {
-  return (num * 4 + 6) / 2;  
+  return (num * 4 + 6) / 2;
 }
 
 let finalResult = calculateResult(8);
 console.log(finalResult)
+
+
+
+
+/* 
+
+Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
+
+Add the number to the end of the array, then remove the first element of the array.
+
+The nextInLine function should then return the element that was removed.
+
+*/
+
+
+function nextInLine(arr, item) {
+  arr.push(item);
+  return arr.shift();
+
+}
+
+let testArr = [1, 2, 3, 4, 5];
+
