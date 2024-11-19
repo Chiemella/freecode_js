@@ -463,7 +463,7 @@ let testArr = [1, 2, 3, 4, 5];
 
 
 // Boolean: TRUE OR FALSE & IF Statement
-function test(myCondition){
+function test(myCondition) {
   if (myCondition) {
     return "Y"
   }
@@ -498,7 +498,7 @@ trueOrFalse(false)
 */
 
 
-function testVal(myValx){
+function testVal(myValx) {
   if (myValx == 10) {
     return "Equal"
   }
@@ -520,7 +520,7 @@ If the values being compared have different types, they are considered unequal, 
 */
 
 
-function testStrict(valp){
+function testStrict(valp) {
   if (valp === 7) {
     return "Yes"
   }
@@ -532,3 +532,21 @@ function testStrict(valp){
 console.log(testStrict(7))
 console.log(testStrict(0))
 console.log(testStrict(12))
+
+
+/* 
+
+Comparison with the Inequality Operator
+The inequality operator (!=) is the opposite of the equality operator. Inequality means not equal. The inequality operator returns false when the equality operator would return true and vice versa. Like the equality operator, the inequality operator will convert data types of values while comparing.
+
+*/
+
+function testNotEqual(Nun) {
+  if (Nun != 99) {
+    return "Hope dey"
+  }
+  return "Hope no dey"
+
+}
+
+console.log(testNotEqual(99));
