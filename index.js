@@ -568,3 +568,29 @@ function testStrictNotEqual(oka) {
 console.log(testStrictNotEqual(10));
 
 
+
+
+
+/*
+
+Comparison with the Greater Than Operator
+
+The greater than operator (>) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns true. Otherwise, it returns false.
+
+Like the equality operator, the greater than operator will convert data types of values while comparing.
+
+Examples
+
+*/
+
+function testGreaterThan(sapa) {
+  if (sapa < 100) {
+    return "Sapa Above 100"
+  }
+  if (sapa < 10) {
+    return "Sapa Above 10"
+  }
+  return "10 or Under"
+}
+
+console.log(testGreaterThan(10));
