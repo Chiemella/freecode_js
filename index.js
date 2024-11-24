@@ -584,10 +584,10 @@ Examples
 */
 
 function testGreaterThan(sapa) {
-  if (sapa < 100) {
+  if (sapa > 100) {
     return "Sapa Above 100"
   }
-  if (sapa < 10) {
+  if (sapa > 10) {
     return "Sapa Above 10"
   }
   return "10 or Under"
