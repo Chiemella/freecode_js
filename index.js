@@ -624,4 +624,34 @@ console.log(checkDiscountEligibility(26)); // Not eligible for discount
 
 
 
+/*
+
+Task:
+
+Write a function checkEligibility(age) that returns "Eligible" if the person is eligible for a driver's license based on the following conditions:
+
+Age is 18 or older, or
+The person has been authorized by a guardian if they are under 18 (this means there’s a variable hasGuardianApproval that will be true or false).
+If neither of the conditions are met, return "Not Eligible".
+
+Use the logical OR (||) operator to combine the conditions.
+
+Hint:
+
+If age >= 18 or hasGuardianApproval === true, return "Eligible".
+Otherwise, return "Not Eligible".
+
+*/
+
+function checkEligibility(afo, hasGuardianApproval) {
+  // Check if the person is eligible based on age or guardian approval
+
+  if (afo >= 18 || hasGuardianApproval === true) {
+    return "Yes";
+  }
+  return "No";
+}
+
+console.log(checkEligibility(20));
+
 
