@@ -594,3 +594,34 @@ function testGreaterThan(sapa) {
 }
 
 console.log(testGreaterThan(10));
+
+
+/*
+You run a store where:
+
+People aged between 18 and 25 (inclusive) are eligible for a discount.
+If the person is outside this age range, they are not eligible.
+
+*/
+
+function checkDiscountEligibility(age) {
+  // Check if the age is between 18 and 25 (inclusive)
+  if (age <= 18 && age >= 25) {
+    return "Eligible for Discount"
+  }
+  // Return not eligible if the condition is not met
+  return "Not ELigible "
+
+}
+
+
+// Test the function with different ages
+console.log(checkDiscountEligibility(17)); // Not eligible for discount
+console.log(checkDiscountEligibility(18)); // Eligible for discount
+console.log(checkDiscountEligibility(20)); // Eligible for discount
+console.log(checkDiscountEligibility(25)); // Eligible for discount
+console.log(checkDiscountEligibility(26)); // Not eligible for discount
+
+
+
+
