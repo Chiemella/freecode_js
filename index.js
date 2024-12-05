@@ -655,3 +655,36 @@ function checkEligibility(afo, hasGuardianApproval) {
 console.log(checkEligibility(20));
 
 
+
+
+/*
+
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  }
+
+  if (val < 5) {
+    return "Smaller than 5";
+  }
+
+  return "Between 5 and 10";
+}
+
+testElseIf(7);                       
+
+*/
+
+function testElseIf(fol) {
+  if (fol > 10) {
+    return "Greater than 10";
+  } else if ( fol < 5) {
+    return "Smaller than 5";
+  } else {
+    return "Btw 5 and 10";
+  }
+}
+
+
+console.log(testElseIf(7));
+
