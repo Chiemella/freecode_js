@@ -677,7 +677,7 @@ testElseIf(7);
 
 function testElseIf(fol) {
   if (fol > 10) {
-    return "Greater than 10";
+    return "Greater than 10";w
   } else if ( fol < 5) {
     return "Smaller than 5";
   } else {
@@ -688,3 +688,18 @@ function testElseIf(fol) {
 
 console.log(testElseIf(7));
 
+
+
+//  Further workings
+
+function orderMyLogic(okay) {
+  if (okay < 5) {
+    return "Less than 5"
+  } else if (okay < 10) {
+    return "Less than 10"
+  } else {
+    return "Greater than or equal to 10"
+  }
+}
+
+console.log(orderMyLogic(7))
