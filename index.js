@@ -703,3 +703,23 @@ function orderMyLogic(okay) {
 }
 
 console.log(orderMyLogic(7))
+
+
+
+// if/else statements can be chained together for complex logic. Here is pseudocode of multiple chained if / else if statements:
+
+function testSize(fam) {
+  if (fam < 5) {
+    return "Tiny";
+  } else if (fam < 10) {
+    return "Small"
+  } else if (fam < 15) {
+    return "Big"
+  } else if (fam < 20) {
+    return "Huge"
+  } else {
+  return "Void"
+  }
+}
+
+console.log(testSize(25));
