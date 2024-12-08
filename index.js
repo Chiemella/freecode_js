@@ -723,3 +723,47 @@ function testSize(fam) {
 }
 
 console.log(testSize(25));
+
+
+
+
+
+
+/*
+
+We are trying to write a function golfScore that takes two inputs:
+
+par — the expected number of strokes for a golfer to complete the hole.
+strokes — the actual number of strokes the golfer used to complete the hole.
+The goal is to return a string based on how many strokes the golfer took compared to the par value. Here's a breakdown of the possible strings we need to return:
+
+1 stroke → "Hole-in-one!"
+2 strokes less than par or more → "Eagle"
+1 stroke less than par → "Birdie"
+Exactly equal to par → "Par"
+1 stroke more than par → "Bogey"
+2 strokes more than par → "Double Bogey"
+3 or more strokes more than par → "Go Home!"
+
+*/
+
+
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+function golfScore(par, strokes) {
+  if (strokes === 1) {
+    return names[0]; // "Hole-in-one!"
+  } else if (strokes <= par - 2) {
+    return names[1]; // "Eagle"
+  } else if (strokes === par - 1) {
+    return names[2]; // "Birdie"
+  } else if (strokes === par) {
+    return names[3]; // "Par"
+  } else if (strokes === par + 1) {
+    return names[4]; // "Bogey"
+  } else if (strokes === par + 2) {
+    return names[5]; // "Double Bogey"
+  } else {
+    return names[6]; // "Go Home!"
+  }
+}
