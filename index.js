@@ -677,8 +677,8 @@ testElseIf(7);
 
 function testElseIf(fol) {
   if (fol > 10) {
-    return "Greater than 10";w
-  } else if ( fol < 5) {
+    return "Greater than 10"; w
+  } else if (fol < 5) {
     return "Smaller than 5";
   } else {
     return "Btw 5 and 10";
@@ -718,7 +718,7 @@ function testSize(fam) {
   } else if (fam < 20) {
     return "Huge"
   } else {
-  return "Void"
+    return "Void"
   }
 }
 
@@ -767,3 +767,28 @@ function golfScore(par, strokes) {
     return names[6]; // "Go Home!"
   }
 }
+
+
+
+/*
+If you need to match one value against many options, you can use a switch statement. A switch statement compares the value to the case statements which define various possible values. Any valid JavaScript statements can be executed inside a case block and will run from the first matched case value until a break is encountered.
+*/
+
+
+function caseInSwitch(lol) {
+  let answer = ""
+
+  switch (lol) {
+
+    case 1:
+      answer = "Alpha"
+      break;
+
+    case 2:
+      answer = "Mega"
+      break;
+  }
+  return answer;
+}
+
+console.log(caseInSwitch(1));
