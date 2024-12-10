@@ -792,3 +792,35 @@ function caseInSwitch(lol) {
 }
 
 console.log(caseInSwitch(1));
+
+
+/*
+
+In a switch statement you may not be able to specify all possible values as case statements. Instead, you can add the default statement which will be executed if no matching case statements are found. Think of it like the final else statement in an if/else chain.
+
+*/
+
+
+function switchOfStuff(rom) {
+  let answer = ""
+  switch (rom) {
+
+    case "a":
+      answer = "Oops"
+      break;
+
+    case "b":
+      answer = "Joh"
+      break;
+
+    default:
+      answer = "Hmm"
+  }
+  return answer
+}
+
+console.log(switchOfStuff("a"));
+
+
+
+
